@@ -2,7 +2,149 @@
 		google font
 ------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*------------------------------
+		Common CSS
+------------------------------*/
 body{
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
+}
+
+/*------------------------------
+		Header section
+------------------------------*/
+header{
+	background-color: #161616;
+	color: white;
+	border-radius: 30px;
+	margin-top: 50px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+	font-weight: 700;
+	font-size: 70px;
+	margin-bottom: 20px;
+	line-height: 80px;
+}
+
+.header-info{
+	width: 40%;
+}
+.header-info p{
+	margin-bottom: 30px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.header-button{
+	display: flex;
+	align-items: center;
+}
+
+.header-button a{
+	text-decoration: none;
+	background: #DD0000;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	padding: 16px;
+}
+.header-img img{
+	margin: 33px 0 0 24px;
+	display: flex;
+	width: 581px;
+	height: 613px;
+}
+
+/*------------------------------
+		Main section
+------------------------------*/
+main{
+	display: flex;
+	margin-top: 130px;
+}
+/*------------------------------
+		navigation section
+------------------------------*/
+.navigation{
+	width: 312px;
+	height: 312px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+	padding: 30px;
+	background: #161616;
+	margin-right: 24px;
+	border-radius: 10px;
+}
+.navigation a{
+	text-decoration: none;
+	color: #161616;
+	background: #ffffff;
+	padding: 17px 39px;
+	border-radius: 10px;
+	text-align: center;
+	column-gap: 30px;
+}
+.navigation-infos{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-row-gap: 24px;
+}
+.navigation-infos:nth-child(2n){
+	grid-column-gap: 24px;
+}
+.navigation-info {
+    width: 312px;
+}
+.info-text {
+    margin: 20px;
+}
+.info-text a {
+    text-decoration: none;
+    color: #161616;
+    padding: 4px 16px;
+    border-radius: 10px;
+    border: 1px solid #161616;
+}
+.time-and-chat img {
+    width: 16px;
+    height: 16px;
+}
+.time-and-chat span{
+	margin-right: 15px;
+}
+
+/*------------------------------
+		footer section
+------------------------------*/
+footer{
+	background-color: #161616;
+}
+footer h1{
+	padding: 130px 0 50px 0;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 60px;
+	text-align: center;
+	color: #ffffff;
+}
+
+hr{
+	width: 80%;
+	align-items: center;
+	color: #fff;
+}
+.footer-link{
+	padding: 50px 0 130px 0;/*
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);*/
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
 }
