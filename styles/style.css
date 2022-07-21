@@ -161,7 +161,7 @@ hr{
 	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-link{
-	padding: 50px 0 130px 0;
+	padding: 50px 0 65px 0;
 	display: flex;
 	justify-content: center;
 	color: #fff;
@@ -175,8 +175,26 @@ hr{
 
 
 /*------------------------------
-		media queries
+		Social media
 ------------------------------*/
+.social-media{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #161616;
+	padding-bottom: 65px;
+}
+.social-media a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 20px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------
+										Media Queries
+------------------------------------------------------------------------------------------*/
 
 
 /* ++++++++++++++++++++++++++++++++++++

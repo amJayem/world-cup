@@ -159,3 +159,20 @@ hr{
 	color: #fff;
 	margin-right: 5%;
 }
+
+
+/*------------------------------
+		Social media
+------------------------------*/
+.social-media{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #161616;
+	padding-bottom: 65px;
+}
+.social-media a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 20px;
+}
