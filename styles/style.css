@@ -93,16 +93,6 @@ header h1{
 	transition: transform 1s ease-out .3s;
 }
 
-.header-img.football img{
-	margin: 0;
-	width: 5px;
-	height: 5px;
-	/*border-radius: 25px;*/
-
-	position: relative;
-	left: 35px;
-	bottom:  100px;
-}
 
 /*------------------------------
 		 animation

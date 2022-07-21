@@ -62,6 +62,16 @@ header h1{
 	display: flex;
 	width: 581px;
 	height: 613px;
+	transition: transform 1s ease-out .3s;
+}
+
+
+/*------------------------------
+		 animation
+------------------------------*/
+
+.header-img img:hover{
+	transform: translate(-20px, 4px);
 }
 
 /*------------------------------
