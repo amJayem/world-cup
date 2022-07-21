@@ -12,8 +12,35 @@ body{
 }
 
 /*------------------------------
+		 animation
+------------------------------*/
+/*
+.animation .footbal:hover {
+    transform: translate(-650px, 499px);
+}
+
+.football img {
+    width: 150px;
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    transition: transform 1s ease-out .3s;
+    /*transform: translate(-650px, 499px);*/
+    /*display: hidden;*/
+}*/
+
+.header-img img{
+	transition: transform 1s ease-out .3s;
+	transform: translate(-20px, 4px);
+}
+
+.header-img img:hover{
+	transform: translate(-20px, 4px);
+}
+/*------------------------------
 		Header section
 ------------------------------*/
+
 .fit-header{
 	margin: 50px 41px;
 }
@@ -57,11 +84,32 @@ header h1{
 	padding: 16px;
 	border-radius: 5px;
 }
+
 .header-img img{
 	margin: 33px 0 0 24px;
 	display: flex;
 	width: 581px;
 	height: 613px;
+	transition: transform 1s ease-out .3s;
+}
+
+.header-img.football img{
+	margin: 0;
+	width: 5px;
+	height: 5px;
+	/*border-radius: 25px;*/
+
+	position: relative;
+	left: 35px;
+	bottom:  100px;
+}
+
+/*------------------------------
+		 animation
+------------------------------*/
+
+.header-img img:hover{
+	transform: translate(-20px, 4px);
 }
 
 /*------------------------------
